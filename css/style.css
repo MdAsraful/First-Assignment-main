@@ -120,7 +120,7 @@ li{
 .btn-white{
     font-weight: 600;
     font-size: 20px;
-    padding: 20px 35px;
+    padding: 15px 30px;
     border-radius:5px ;
     border: none;
     color: #F15B22;
@@ -132,7 +132,7 @@ li{
     color: white;
     display: flex;
     text-align: left;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer-sub-section1{
     margin: 130px 100px;
@@ -140,5 +140,30 @@ li{
 
 .footer-icon-parent{
     display: flex;
+    margin-right: 100px;
+    /* justify-content: left; */
+
+
     
+    
+}
+.footer-icon-child{
+    margin-left: 10px;
+}
+.footer-sub-section2{
+    margin: 130px 100px;
+    align-items: left;
+}
+/* .footer-sub-sub{
+    display: flex;
+} */
+.footer-title2{
+    font-weight: 600;
+    font-size: 25px;
+}
+#input-email{
+    padding: 15px 150px 15px 10px;
+    border-radius: 8px;
+    background:none ;
+    border: 1px solid white;
 }
