@@ -3,7 +3,7 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .head-Section {
     width: 100%;
@@ -129,5 +129,16 @@ li{
     margin-top: 200px;
     height: 600px;
     background-color: #151414;
+    color: white;
     display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+.footer-sub-section1{
+    margin: 130px 100px;
+}
+
+.footer-icon-parent{
+    display: flex;
+    
 }
