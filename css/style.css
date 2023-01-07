@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    border: 1px solid red;
 }
 .head-Section {
     width: 100%;
@@ -35,5 +36,98 @@
 .main{
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+      text-align: left;  
+    align-items: center;
+    margin-top: 130px; 
+    
+}
+.main-section{
+    /* padding-right: 150px; */
+    margin-right: 83px;
+    
+    
+
+}
+.main-sub-title{
+    font-size: ;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #151414;
+}
+
+
+li{
+    list-style: none;
+    color: #444343;
+}
+
+/* Second Section */
+.main-second-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: 130px; 
+    text-align: center;
+    justify-content: center;
+        
+    align-items: center;
+    
+}
+.second-sub1{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+        
+    align-items: center;
+}
+.second-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.second-pragraph{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.second-sub2{
+    
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.section-sub{
+    
+    width: 1140px;
+    height: 300px;
+    background-image: url('../images/gradient1.png'),url(../images/watch.png);
+    text-align: left;
+
+}
+.section-sub2{
+    margin: 60px;
+}
+.second-sub-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.btn-white{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    border-radius:5px ;
+    border: none;
+    color: #F15B22;
+}
+.footer-section{
+    margin-top: 200px;
+    height: 600px;
+    background-color: #151414;
     display: flex;
 }
